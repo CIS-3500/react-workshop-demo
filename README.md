@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installing Node.js
+
+If you do not already have Node.js install there are two methods.
+
+### Option 1: Download From Official Site
+
+The [official site](https://nodejs.org/en) provides direct downloads of the installer. Download version ... [ask Jefferson] ...
+
+### Option 2: Use a version manager (recommended)
+
+You can also use a runtime version manager like [`asdf`](https://asdf-vm.com/guide/getting-started.html) (this allows you to have several concurrent versions of a programming language at the same time, and switch between versions with ease).
+
+## Get Started
+
+- [Import this repository](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer) to your own GitHub account.
+- `git clone https://github.com/<your GitHub username>/react-workshop-demo` to clone the repo
+- `cd react-workshop-demo` to enter the repository's local cloned project directory
+- `npm install` to download and install the Node dependencies
+
 ## Available Scripts
 
 In the project directory, you can run:

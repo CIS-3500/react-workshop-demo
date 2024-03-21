@@ -38,17 +38,7 @@ function App() {
         <h1>Todo List</h1>
       </header>
       <div className="body-container">
-        <TodoContainer name="My Day">
-          <input
-            type="text"
-            placeholder="Add a todo"
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                addTodo(e.target.value);
-                e.target.value = "";
-              }
-            }}
-          />
+        <TodoContainer name="My Day" addTodo={addTodo}>
           {todoItems.map((item) => (
             <TodoItem
               key={item.key}
